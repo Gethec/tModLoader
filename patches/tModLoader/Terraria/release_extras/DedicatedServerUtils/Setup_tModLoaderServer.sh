@@ -1,4 +1,4 @@
-TMODDIR= $(dirname $(pwd))/tmod
+TMODDIR=$(dirname $(pwd))/tmod
 
 steamcmd +force_install_dir $TMODDIR +login anonymous +app_update 1281930 +quit
 
